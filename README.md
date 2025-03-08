@@ -1,23 +1,20 @@
-# mlgroup12
-Directory and File Structure
+# Machine Learning Project
 
-/dataset_organization.ipynb
-<br>Code to organize and create 80-20 training-test split
+This project is for CS 4641(Machine Learning) at Georgia Tech. We utilized a CNN, CNN with SVM Backbone, and Vision Transformer for Breast Cancer Detection. It includes data preprocessing, model training, and evaluation using multiple approaches. 
 
-/preprocessing_text_removal.py
-<br>Removes text from background of mammograms
+**Transferred the repository our private GT repository** 
 
-/cnn.ipynb
-<br>CNN Model Code
+## 📌 Description of Files
 
-/environment.yml
-<br>Conda enviornment for running with PACE-ICE
+- **`dataset_organization.ipynb`** – Organizes dataset and creates an 80-20 training-test split.
+- **`preprocessing_text_removal.py`** – Preprocessing script to remove text from mammogram backgrounds.
+- **`cnn.ipynb`** – Convolutional Neural Network (CNN) model implementation.
+- **`ViT.ipynb`** – Vision Transformer (ViT) model implementation for breast cancer detection.
+- **`SVM.ipynb`** – Support Vector Machine (SVM) model implementation.
+- **`SVM_helper.py`** – Helper functions for preprocessing data for SVM.
+- **`environment.yml`** – Conda environment setup for running with **PACE-ICE** supercomputing cluster.
 
-ViT.ipynb
-<br> Vit Model
+## Documentation and Website
 
-SVM.ipynb
-<br> SVM Model
+https://github.gatech.edu/pages/skorkaya6/mlgroup12/
 
-SVM_helper.py
-<br>SVM helper function for preprocessing
